@@ -1,0 +1,131 @@
+
+#strings are immutable
+a="ritesh"
+print(len(a))
+
+# upper
+
+str1="AbcFiNgc"
+print(str1.upper())
+
+#lower
+
+str1="AbcDgFghDS"
+print(str1.lower())
+
+#strip
+
+str2=" silver spoon "
+print(str2.strip())
+
+#rstrip
+
+str3=("hello !!!!" )
+print(str3.rstrip("!"))
+
+#replace
+
+str2="silver spoon"
+print(str2.replace("ve","r"))
+
+#split
+
+str2="silver spoon"
+print(str2.split())
+
+#capitalize
+
+name="ritesh"
+print(name.capitalize())
+
+name="rohit"
+print(name.capitalize())
+
+#center
+
+str1=("my name is riteh patel")
+print(len(str1))
+print(str1.center(55))
+
+str2=("my name is riteh patel")
+print(str2.center(50,"."))
+
+#count
+
+str2="fgrfutyu "
+countstr=str2.count("g")
+print(countstr)
+
+#endswith
+
+name="ritesh!!!!!!!!!!!!!!!!!"
+print(name.endswith("!"))
+
+str1="welcome to the console !!!"
+print(str1.endswith("to",4,10))
+
+#find
+
+a="my name is ritesh"
+print(a.find("is"))
+print(a.find("z"))
+print(a.find("n"))
+
+#isalnum
+
+str2="mynameisritesh"
+str1="welcome to the console"
+print(str1.isalnum())
+print(str2.isalnum())
+
+#isalpha
+
+str1="ritesh"
+print(str1.isalpha())
+
+#is lower
+
+a="abcd"
+print(a.islower())
+
+# isprintable
+
+a="my name is ritesh kumar patel"
+print(a.isprintable())
+
+b="my name is ritesh kumar patel\n"
+print(b.isprintable())
+
+#is space
+
+a="    "  #using spacebar
+b="\n" # using tab
+
+print(a.isspace())
+print(b.isspace())
+
+#is tittle
+
+str1="World Health Organization"
+
+print(str1.istitle())
+
+str2="To Kill the Boy"
+print(str2.istitle())
+
+#startswith
+
+str1="i am fan of rohit sharma"
+print(str1.startswith("i"))
+print(str1.startswith("fan"))
+
+#swapcase
+
+a="i am fan of rohit sharma"
+print(a.swapcase())
+
+#titlecase
+
+a="my name is ritesh kumar patel"
+print(a.title())
+

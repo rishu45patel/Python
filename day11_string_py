@@ -1,0 +1,107 @@
+name="ritesh"
+friend="rohit"
+a='i am a good boy'
+
+print("hello " +name)
+print(a)
+print(name)
+
+#multiline string print
+
+b='''hi i am good boy and 
+my name is ritesh kumar patel
+rohit sharma is a good 
+player in odi '''
+
+
+print(b)
+
+#accessing characters of a string
+
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5])
+
+
+#mutliline string accessing charaaters using loop
+
+print("use loop\n")
+for character in b:
+ print(character )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+list1=[3,4,6.5,[-7,5],["apple","red"]]
+
+print(list1)
+
+tuple1=(("lion", "tiger"),
+        ("rose","red"))
+
+print(tuple1)
+
+dict1={"ritesh":"name", "age":18,
+       "canvote":True}
+
+print(dict1)

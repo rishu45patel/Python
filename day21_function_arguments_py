@@ -1,0 +1,74 @@
+
+
+#default arguments
+
+
+def name(fname, mname="jhon" , lname="whatson"):
+    print("hello", fname,mname,lname)
+
+
+name("any")    
+name("rohit","ritesh","sanu")
+
+
+#keyboard arguments
+
+def name(fname,mname,lname):
+    print("hello",fname,mname,lname)
+
+name(mname="ritesh",lname="rohit",fname="sachin")
+
+
+#required value
+
+#def name(fname,mname,lname):
+    #print("hello",fname,mname,lname)
+
+#name("peter","harry")
+
+
+#variable-length arguments
+
+def average(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+   # print("average is : ",sum/len(numbers))
+    return sum/len(numbers)
+#average(5,6)          
+
+c=average(5,6,7,1)
+print(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

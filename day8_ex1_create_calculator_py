@@ -1,0 +1,30 @@
+a=12
+b=5
+
+print("the value of ",a,"+","is: ",a+b)
+print("the value of ",a,"-","is: ",a-b)
+print("the value of ",a,"*","is: ",a*b)
+print("the value of ",a, "/","is: ",a/b)
+
+
+
+a=12
+b=23
+
+
+print("enter the value is  a")
+print("enter the value is  b")
+
+print(a+b)
+
+
+
+
+
+
+
+
+
+
+
+

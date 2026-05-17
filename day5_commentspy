@@ -1,0 +1,11 @@
+#hey harry, please dont remove this line 
+#author: harry
+#course: 100 days of code
+#rohit sharma is a great player in the world
+print("hey i am a good boy \n i am big fan of rohit sharma")
+
+print("hellow world")
+
+#print(67+67)
+    # this is a '-line single-line comment'
+print("this is a print comment") 

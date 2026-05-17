@@ -1,0 +1,10 @@
+a=complex(3,4)
+b=2.3
+
+c=1    
+print(a)
+print("type of b is",type(b))
+print("type of c is",type(c))
+
+print("type ", type(b))
+

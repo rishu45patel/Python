@@ -1,0 +1,60 @@
+#if else
+
+a=int(input("enter the  your age"))
+
+print("your age is ", a)
+
+if(a>18):
+          print("you can drive")
+ 
+else:
+      print("you can not drive")
+
+
+# conditional operation
+
+#>,<,>=,<=,==,!=
+
+print(a>18)
+print(a<18)
+print(a<=18)
+print(a>=18)
+print(a==18)
+print(a!=18)
+
+#elif statements
+
+applePrice=10
+budget=200
+
+if(budget - applePrice > 50):
+   
+   print("add 1 kg apples to the cart")
+
+elif(budget - applePrice>70):
+
+    print("its oky you can buy")
+
+else:
+    
+    print("do not add apples to the cart")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

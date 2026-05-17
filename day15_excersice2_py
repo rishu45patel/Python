@@ -1,0 +1,33 @@
+a=int(input("enter the time"  ))
+
+if(a>12):
+
+    print("good morning")
+
+elif(a==12):
+
+   print("afternoon")
+
+else:
+
+     print("good evening")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

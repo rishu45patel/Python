@@ -1,0 +1,53 @@
+
+#for loop
+
+name="ritesh"
+for i in name:
+         print(i)
+         
+         print(i,end="!")  
+
+         if(i=="t"):
+             print("i am good man !")
+
+print("\n")
+
+color=["red" , "green" , "blue" , "yellow"]
+for i in color:
+     print(color)
+     for i in color:
+          print(i)
+
+for i in range(10):
+    print(i+1)
+ 
+    print(i)
+    
+for k in range(1,100):
+    print(k)
+
+for i in range(1,12,3):
+    print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

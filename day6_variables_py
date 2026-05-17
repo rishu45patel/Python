@@ -1,0 +1,15 @@
+a=1   # integers
+
+b=True # boolean
+c="harry" # string
+d=None  # none type
+
+
+a=1
+
+print(a)
+
+b="ritesh"
+
+
+print(b)

@@ -1,0 +1,10 @@
+
+
+print("hi i am ritesh kumar patel \n i am a big fan of rohit sharma \n my college name mcaet")
+
+print("hy my name is ritesh \n i am good boy in the world \n my village is so large")
+
+
+#escape sequence character:
+
+print('hy iam \'a\" good boy"\ not me ')

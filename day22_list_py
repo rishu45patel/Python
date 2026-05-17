@@ -1,0 +1,87 @@
+#list
+
+marks=[2,3,4,5,6,]
+print(marks)
+print(type(marks))
+print(marks[:])
+print("\n")
+
+# list index
+
+marks=[2,3,4,5,6]
+print(marks[0])
+print(marks[1])
+print(marks[2])
+print(marks[3])      
+
+print("\n")
+#positive and negative
+
+print(marks[-3]) #1 negative
+
+print(marks[len(marks)-3])#positive
+print(marks[5-3])#positive
+print(marks[2])#positive
+
+print("\n")
+#check the list present
+
+colors=["red","blue","black","green"]
+if "red" in colors:
+    print("yes")
+
+else:
+    print("no")
+
+print("\n")
+
+if "lue" in "blue":
+    print("yes")
+else:
+    print("no")    
+
+print("\n")
+#jumpindex
+marks=[12,3111,343,45,2324,4,3,5,7,5]
+print(marks)
+print(marks[3:6])
+print(marks[3:6:2])
+
+
+print("\n")
+
+#list comprehension
+list=[i*i for i in range(10)]
+#list=[i for i in range(5)]
+print(list)
+list=[i*i for i in range(10) if i%2==0]
+print(list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

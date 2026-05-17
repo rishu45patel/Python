@@ -1,0 +1,16 @@
+a=input("enter the your name : ")
+print("my name is", a)
+
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+
+print(x+y)
+
+#interchange
+print("\n")
+
+print(int(x)+int(y))
+
+print(float(x)+float(y))
+
+

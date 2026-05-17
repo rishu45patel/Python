@@ -1,0 +1,5 @@
+print("hey",54,46,74, sep="~", end="009\n")
+print("harry")
+
+print(34,3,34,"ritesh",sep="~",end="09687")
+print("hello")
