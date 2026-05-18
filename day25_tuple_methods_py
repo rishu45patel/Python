@@ -1,0 +1,32 @@
+# count method
+
+tuple1=(0,1,2,3,2,3,1,3,2,3,3)
+res=tuple1.count(2)
+print("coun of 3 in tuple is : ", res)
+
+# index method
+
+tuple2=(0,1,5,8,7,9)
+print(len(tuple2))
+a=tuple2.index(5)
+print('index of 5 in tuple2 is ',a)
+
+tuple=(0,1,2,3,2,3,1,3,2)
+res=tuple.index(3)
+print("index of 3 in tuple is",res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

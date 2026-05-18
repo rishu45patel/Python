@@ -1,0 +1,36 @@
+list1=int(input("enter the first player"))
+list2=int(input("enter the second player"))
+list3=int(input("enter the third player"))
+
+if(list1>10):
+    print("the first player won the kbc")
+
+elif(list2<10):
+    print("the second player won the kbc")
+
+elif(list3==10):
+    print("the third player won")        
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
